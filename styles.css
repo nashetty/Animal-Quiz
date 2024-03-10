@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Madimi+One&display=swap");
+
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  font-family: "Madimi One", sans-serif;
+  background-image: url(background.jpeg);
+  background-size: cover;
+}
+
+.centered {
+  text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+main {
+  width: 600px;
+  height: 450px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 1.8em;
+  color: white;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  text-align: justify;
+}
+
+h1 {
+  color: coral;
+  font-size: 40px;
+}
+
+#question {
+  color: #73e0e0;
+  font-size: 0.8em;
+}
+
+#answers {
+  font-size: 0.8em;
+}
+
+#listOfAnswers {
+  list-style-type: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: -25px;
+}
+
+#response {
+  background-color: #73e0e0;
+  color: coral;
+  font-size: 20px;
+  font-weight: 600;
+  height: 30px;
+  border-radius: 20px;
+  margin: 10px;
+  align-items: center;
+}
+
+#submitDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#submitBtn {
+  background-color: #73e0e0;
+  color: coral;
+  font-size: 20px;
+  font-weight: 600;
+  height: 40px;
+  border-radius: 20px;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+}
